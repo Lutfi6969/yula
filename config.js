@@ -3,14 +3,14 @@ let chalk = require('chalk')
 
   // OWNER CONTOH EDIT : ['NOMORMU AWALI DENGAN 62 TANPA 0', 'NAMAMU', true]
 owner = [
-['6281283516246', 'Maximus Store', true]
+['6289644048756', 'Muhamad Luthfi', true]
 ] 
 
   // MODERATOR
-mods = ['6288225750488'] 
+mods = ['6289644048756'] 
 
   // PREMIUM USERS
-prems = ['6281283516246']
+prems = ['6289644048756']
 
   // APIKEYS
 global.lolkey = '4dbf6ff662a26767fb669cc0'
@@ -29,9 +29,9 @@ global.APIs = {
 
   // 'https://website': 'APIKEY'
 global.APIKeys = {
-  'https://api.neoxr.eu.org/': 'APIKEYLU',
-  'https://api.lolhuman.xyz': 'APIKEYLU',
-  'https://api.botcahx.live': 'APIKEYLU',
+  'https://api.neoxr.eu.org/': 'W2EwOfrE',
+  'https://api.lolhuman.xyz': '4dbf6ff662a26767fb669cc0',
+  'https://api.botcahx.live': '4BvY6YLI',
   'https://api.itsrose.life': 'Rk-APIKEYLU',
 }
 
@@ -41,7 +41,7 @@ const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
   var sticker_name = 'sᴛɪᴄᴋᴇʀ ʙʏ'
-  var sticker_author = 'ᴀssɪsᴛᴇɴ ʏᴜʟᴀ 💕'
+  var sticker_author = 'Luthfipriatamvans 💕'
 } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
@@ -56,18 +56,18 @@ fs.watchFile(file_exif, () => {
 })
 
 // ALL GLOBAL
-global.nameown = 'Maximus Store'
-global.waown = 'wa.me/6281283516246'
-global.mail = 'maximusstoreindonesia@gmail.com'
+global.nameown = 'Muhamad Luthfi'
+global.waown = 'wa.me/6289644048756'
+global.mail = 'pacebangke@gmail.com'
 global.fb = 'https://facebook.com/maximusstoreindonesia'
-global.ig = 'https://instagram.com/maximusstore.id'
-global.gcbot = 'https://chat.whatsapp.com/FJRtTzRKxP8A2wT6fcCW3s'
-global.wait = '_*YuLa sedang memproses...*_'
-global.eror = '*Sistem YuLa Error*'
-global.maxwarn = '2'
+global.ig = ''
+global.gcbot = 'https://chat.whatsapp.com/KNRCcGwWAOWFFmho6wzwLj'
+global.wait = '_*Sabar tod sedang memproses...*_'
+global.eror = '*Sistem Error*'
+global.maxwarn = '3'
 global.packname = sticker_name
 global.author = sticker_author
-global.wm = '© ᴀssɪsᴛᴇɴ ʏᴜʟᴀ 💕'
+global.wm = '© abang ganteng'
 global.pricelist = '*LIMIT* kamu habis. kamu bisa order akses premium\n\n*PREMIUM USER PRICE LIST*\n\n*3 Day premium*\n- OrderID: 3\n- Price: Rp. 5.000 IDR\n\n*7 Day premium*\n- OrderID: 7\n- Price: Rp. 10.000 IDR\n\n*30 Day premium*\n- OrderID: 30\n- Price: Rp. 15.000 IDR\n\n*60 Day premium*\n- OrderID: 60\n- Price: Rp. 30.000 IDR\n\n*90 Day premium*\n- OrderID: 90\n- Price: Rp. 40.000 IDR\n\n*365 Day premium*\n- OrderID: 365\n- Price: Rp. 115.000 IDR\n\nSilahkan ikuti contoh di bawah.\n*.order* <OrderID>\nExample: *.order* 30'
 
 Intervalmsg = 1800 //detik
