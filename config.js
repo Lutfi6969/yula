@@ -1,4 +1,4 @@
-let fs = require('fs') 
+ylet fs = require('fs') 
 let chalk = require('chalk')
 
   // OWNER CONTOH EDIT : ['NOMORMU AWALI DENGAN 62 TANPA 0', 'NAMAMU', true]
@@ -60,7 +60,7 @@ global.nameown = 'Muhamad Luthfi'
 global.waown = 'wa.me/6289644048756'
 global.mail = 'pacebangke@gmail.com'
 global.fb = 'https://facebook.com/maximusstoreindonesia'
-global.ig = ''
+global.ig = 'https://www.instagram.com/luth.fi9869/'
 global.gcbot = 'https://chat.whatsapp.com/KNRCcGwWAOWFFmho6wzwLj'
 global.wait = '_*Sabar tod sedang memproses...*_'
 global.eror = '*Sistem Error*'
