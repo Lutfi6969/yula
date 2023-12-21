@@ -15,7 +15,7 @@ prems = ['6281283516246']
   // APIKEYS
 global.lolkey = '4dbf6ff662a26767fb669cc0'
 global.neoxr = 'APIKEYLU'
-global.btc = 'APIKEYLU'
+global.btc = '4BvY6YLI'
 global.rose = 'Rk-APIKEYLU'
 
   // name: 'https://website'
