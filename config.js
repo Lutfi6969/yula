@@ -13,7 +13,7 @@ mods = ['6288225750488']
 prems = ['6281283516246']
 
   // APIKEYS
-global.lolkey = 'APIKEYLU'
+global.lolkey = '4dbf6ff662a26767fb669cc0'
 global.neoxr = 'APIKEYLU'
 global.btc = 'APIKEYLU'
 global.rose = 'Rk-APIKEYLU'
